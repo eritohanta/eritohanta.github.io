@@ -212,6 +212,10 @@ h3{
   color: white;
 } 
 
+#listStaff h2{
+     text-decoration: underline;
+}
+
 /* FOOTER */
 
 footer{
