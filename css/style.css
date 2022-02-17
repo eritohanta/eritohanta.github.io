@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'sans-serif';
+	padding: 0;
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* NAVBAR */
+
+nav {
+	overflow: hidden;
+	background-color: #25282f;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+
+header li {
+	float: right;
+	font-size: 1.2em;
+}
+
+header li a{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+  font-family: 'Dancing Script', cursive ; 
+}
+
+#logo{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+}
+
+/* IMAGE PRINCIPALE */
+
+#firstImages{
+  padding-top: 60px;
+  background: url(/img/eritohantafleur.png) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: white;
+  font-size: 6em;
+  margin-top: 110px;
+  text-shadow: 1px 3px 2px black;
+}
+
+#firstTrait{
+  height: 1px;
+  width:  80%;
+  margin: -3px auto;
+  background-color: white;
+  box-shadow: 1px 3px 2px black;
+}
+
+h3{
+  font-family: 'cursive';
+  text-align: center;
+  color:white;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* PRESENTATION */
+
+#presentation{
+  background-color: white;
+  padding: 10px 0px 100px 0px;
+}
+
+#textIntro{
+  padding: 0px 20%;
+}
+
+#prestations{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+
+.imagesPrestations h4{
+  font-family: 'cursive';
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15 px;
+  font-weight: 300 ;
+}
+
+
+#textIntro{
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 1400 px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+}
+
+#textIntro{
+  padding-top: 60px;
+}
+
+#contexte{
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 1400 px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+  text-decoration: underline;
+}
+
+#presentation h1{
+  color: black;
+  font-family: 'Dancing Script',cursive;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* ----------------------------------- */
+
+#listStaff{
+  height: 1400 px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+}
+
+ #listStaff{
+  padding-top: 60px;
+}
+
+#kuupz{
+  background: url(/img/kuupz.png);
+}
+
+#jett{
+  background: url(/img/jett.png);
+}
+
+#ots{
+  background: url(/img/ots.png);
+}
+
+#heathiam{
+  background: url(/img/heathiam.gif);
+}
+
+#billoute{
+  background: url(/img/billoute.png);
+}
+
+#ness{
+  background: url(/img/ness.gif);
+}
+
+#raven{
+  background: url(/img/raven.png);
+}
+
+#listStaff li{
+  margin: 65px 100px 0 100px;
+  height: 120px;
+  width:11%;
+  max-width: 450px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px black;
+}
+
+#listStaff p{
+  height: 45px;
+  width: 235px;
+  float: right;
+  margin: 50px -250px 0 0;
+  opacity: 0.8;
+  font-size: 1.5em;
+  text-align: justify;
+  padding-top: 15px;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+} 
+
+#listStaff h2{
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #495720;
+  color: #fffae1;
+  padding: 200px 0 400px 0;
+  text-align: center;
+}
+
+form{
+  margin: 0px auto;
+  max-width: 900px;
+}
+
+input, textarea, button{
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+
+textarea{
+  height: 120px;
+}
+
+button{
+  font-size: 1.5em;
+  background-color: #fffae1;
+}
+
+button:hover{
+  background-color: red;
+  color: #fffae1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#copyright{
+ margin: 300px auto;
+ height: 1px;
+ width: 75%;
+}
+
+#twoTrait{
+  height: 1px;
+  width: 75%;
+  background-color: #fffae1;
+  margin: 20px auto;
+}
+
+
+  /* VIDEO */
+
+#controls{
+  height: 400px;
+  width: 400px;
+}
+
+/* DISCORD */
+
+#discord2 a{
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 1.5em;
+  font-family: 'cursive';
+  color: black
+  ;
+}
+#discord2 a:hover{
+  transform: scale(1.5);
+  transition: 0.4s;
+}
+
+#discord2 p{
+  text-align: center;
+  font-size: 4.5em;
+  color:white;
+  font-family: 'Dancing Script', cursive;
+}
+
+.firstImages h4{
+  font-family: 'cursive';
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15 px;
+  font-weight: 300 ;
+}
